@@ -1,0 +1,14 @@
+{
+  "presets": ["es2015-node5"],
+  "plugins": [
+  	"transform-class-properties",
+  	"transform-object-rest-spread",
+  	"syntax-object-rest-spread",
+  	"transform-es2015-spread",
+    "transform-decorators-legacy",
+    ["transform-async-to-module-method", {
+      "module": "bluebird",
+      "method": "coroutine"
+    }]
+  	],
+}
